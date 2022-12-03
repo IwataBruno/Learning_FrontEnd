@@ -1,3 +1,206 @@
+/* Integracao inicial */
 h1{
-    color: red;
+    color: blue;
+}
+
+/* id simbolo #*/
+h3{
+    color: green;
+}
+
+#title{
+    color: blue;
+}
+
+/* Classes simbolo .*/
+.text{
+    color: blueviolet;
+}
+
+/*Background*/
+.background{
+    background-color: red;
+    color: blue;
+    font-size: 30px;
+}
+
+p{
+    font-size: 35px;
+}
+
+/*Dois elementos, uma regra*/
+p, 
+.title-small{
+    color: darkmagenta;
+}
+
+.title-small{
+    font-size: 25px;
+}
+
+/*Background-image*/
+.background-image{
+    background-image: url("../img/meteoro.jpg");
+    padding: 20px;
+    color: white;
+}
+
+/*Largura e Altura*/
+#width-height{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+}
+
+/*Padding eh o espacamento interno*/
+#padding{
+    background-color: magenta;
+    padding: 20px;
+}
+
+/*Margin eh o espacamento externo*/
+#margin{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 20px;
+}
+
+/*Border esse elemento cria uma borda em volta da div ou de elemento principal*/
+/*Serve para decorar o elemento, especificando a largura ex 3px, tipo solid e a cor red*/
+#border{
+    border: 3px solid red;
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    margin: 30px;
+}
+
+/*Border radius criando um elemento com cantos arredondados*/
+#border-radius{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 2px dashed blue;
+    border-radius: 10px;
+}
+
+/*Cores*/
+#rgb, #hsl, #hex{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+#hex{
+    background-color: #2dc025;
+}
+
+#rgb{
+    background-color: rgb(123, 40, 99);
+}
+
+#hsl{
+    background-color: hsl(242, 76%, 44%);
+}
+
+/*Alinhamento*/
+#center{
+    text-align: center;
+}
+
+p{
+    font-size: 25px;
+}
+
+/*Decoration*/
+#underline{
+    text-decoration: underline;
+}
+
+#line{
+    text-decoration: line-through;
+}
+
+/*Criando um link sem underline*/
+#sem-underline{
+    text-decoration: none;
+}
+
+/*font size*/
+#fonte-pequena{
+    font-size: 10px;
+}
+
+/*transform*/
+#upper{
+    text-transform: uppercase;
+}
+
+#lower{
+    text-transform: lowercase;
+}
+
+/*font family*/
+#serif{
+    font-family: Georgia;
+}
+
+#sans-serif{
+    font-family: Helvetica;
+}
+
+#cursive{
+    font-family: cursive;
+}
+
+/*display*/
+.inline{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 5px;
+    /*com inline-block os elementos nao ficam mais um em cima do outro, eles se alinham*/
+    display: inline-block;
+}
+
+.block{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: 5px;
+    display: block;
+}
+
+/*ocultando elemento*/
+#none{
+        display: none;
+    }
+/*position*/
+#relative, #absolute, #fixed{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+#relative{
+    background-color: blueviolet;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#absolute{
+    background-color: black;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+#fixed{
+    background-color: black;
+    position: fixed;
+    top: 100px;
+    left: 45px;
 }
