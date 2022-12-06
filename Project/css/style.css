@@ -41,6 +41,46 @@ h1{
     margin-bottom: 1rem;
 }
 
+#about-container h2{
+    font-size: 2.4rem;
+    max-width: 500px;
+    margin-bottom: 1rem;
+}
+
+#date{
+    text-transform: uppercase;
+    color: #aaa;
+    margin-bottom: 1rem;
+}
+
+#description{
+    max-width: 500px;
+    margin-bottom: 1rem;
+    line-height: 1.4rem;
+}
+
+#about-container h4{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+#users-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.user-card{
+    border: 2px solid #ccc;
+    padding: 1rem;
+    width: 180px;
+    text-align: center;
+}
+
+.user-card img{
+    width: 120px;
+}
+
 /* Formulario */
 #form-container{
     flex: 1;
