@@ -204,4 +204,25 @@ h1{
     #users-container{
         flex-direction: column;
     }
+   
+    #user-card{
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .user-card img{
+        width: 180px;
+   }
+
+   .user-card .user-name{
+        font-size: 1.6rem;
+   }
+
+   .user-card .user-role{
+        font-size: 1.4rem;
+   }
+
+   #register-form, #register-container{
+    gap: 1rem;
+   }
 }
